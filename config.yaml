@@ -1,10 +1,7 @@
 arxiv:
   categories:
-    - nucl-th
-    - nucl-ex
     - hep-ph
-    - hep-th
-  max_candidates: 100
+  max_candidates: 80
 
 embedding:
   model: BAAI/bge-small-en-v1.5
@@ -15,7 +12,7 @@ ranking:
   max_results: 15
 
 email:
-  subject_prefix: "[arXiv Nuclear]"
+  subject_prefix: "arxiv 日报"
   include_pdf_links: true
   send_empty_email: true
 
